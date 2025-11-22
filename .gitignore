@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local data and outputs
+data/workdir/
+data/*.zip
+data/sample_pkg/
+pipeline/data_banks/good_bank/
+pipeline/data_banks/bad_bank/
+
+# Python bytecode caches inside pipeline
+pipeline/**/__pycache__/
